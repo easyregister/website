@@ -3,7 +3,12 @@ module.exports = {
   jit: true,
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'title': ['Raleway', 'sans-serif'],
+        'body': ['Libre Franklin', 'sans-serif'],
+      },
+    },
   },
   variants: {
     extend: {},
