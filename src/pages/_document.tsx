@@ -6,6 +6,7 @@ class AppDocument extends Document {
     return (
       <Html lang="en">
         <Head>
+	  <script async defer data-domain="easyregister.it" src="http://dashboard.pangio.it/js/plausible.js"></script>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
           <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Raleway:wght@700&display=swap" rel="stylesheet" />
