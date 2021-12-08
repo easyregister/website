@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +22,7 @@ const Home: NextPage = () => {
         <h1>What is Easy Register?</h1>
         <p>Easy Register is the school register of the future. It has been reinvented from scratch, to solve all the issues and missing features from the other registers</p>
       </section>
+      <Footer />
     </>
   )
 }
