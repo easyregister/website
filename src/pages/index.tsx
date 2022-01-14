@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { ArrowRight } from 'react-feather'
 import Footer from '../components/Footer'
 
 const Home: NextPage = () => {
@@ -14,8 +15,17 @@ const Home: NextPage = () => {
           The new <span className="font-logo text-logo text-6xl">register</span> for the schools of tomorrow is here.
         </span>
 
-        <div className="absolute bottom-20">
-          <a href="https://app.easyregister.it"><button className="bg-indigo-500 text-white rounded py-3 px-5 shadow-lg">Request access</button></a>
+        <div className="absolute bottom-20 flex flex-col gap-2 items-center">
+          <a href="https://app.easyregister.it">
+            <button className="bg-indigo-500 text-white rounded py-3 px-5 shadow-lg">Beta Testers Login</button>
+          </a>
+
+          <a href="#">
+            <button className="border-2 border-indigo-500 rounded flex items-center p-3">
+              <ArrowRight className="mr-2" />
+              Request access
+            </button>
+          </a>
         </div>
       </main>
       <section className="min-h-screen">
