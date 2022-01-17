@@ -1,7 +1,7 @@
 module.exports = {
-  purge: ['./src/**/*.tsx'],
+  content: ['./src/**/*.tsx'],
   jit: true,
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media',
   theme: {
     extend: {
       fontFamily: {
