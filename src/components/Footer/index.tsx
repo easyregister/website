@@ -21,7 +21,7 @@ const links: LinkGroupProps[] = [
     links: [
       { title: "Features", url: '/features' },
       { title: "Pricing", url: '/' },
-      { title: "Status", url: 'https://status.pangio.it' },
+      { title: "Status", url: 'https://status.easyregister.it' },
     ]
   },
 ];
