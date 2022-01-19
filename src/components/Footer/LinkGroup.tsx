@@ -14,8 +14,8 @@ export type LinkGroupProps = {
 const LinkGroup: React.FC<LinkGroupProps> = ({ title, links }) => {
   return (
     <div>
-      <span className="text-lg font-title">{ title }</span>
       <ul className="text-right">
+        <li className="text-lg font-title">{ title }</li>
         { links.map((l, i) => (
           <li key={i}>
             { l.url.startsWith('http') ? (
