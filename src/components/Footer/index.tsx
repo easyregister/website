@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
         </div>
         <div className="flex justify-between">
           <Link href="/"><a><span className="text-white font-logo text-3xl">easy register</span></a></Link>
-          <a href="https://app.easyregister.it"><button className="bg-white text-black rounded py-3 px-5 hover:shadow-lg">Request access</button></a>
+          <a href="mailto:contact@easyregister.it?subject=Request%20access%20to%20Easy%20Register"><button className="bg-white text-black rounded py-3 px-5 hover:shadow-lg">Request access</button></a>
         </div>
       </div>
     </footer>
