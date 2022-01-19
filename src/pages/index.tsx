@@ -16,15 +16,14 @@ const Home: NextPage = () => {
           The new <Logo className="text-6xl">register</Logo> for the schools of tomorrow is here.
         </span>
 
-        <div className="absolute bottom-20 flex flex-col gap-2 items-center">
-          <a href="https://app.easyregister.it">
-            <button className="bg-indigo-500 text-white rounded py-3 px-5 shadow-lg">Beta Testers Login</button>
+        <div className="absolute bottom-20 flex flex-col space-y-2 items-center">
+          <a href="mailto:contact@easyregister.it?subject=Request%20access%20to%20Easy%20Register">
+            <button className="bg-indigo-500 text-white rounded py-3 px-5 shadow-lg font-bold">Request access</button>
           </a>
 
-          <a href="mailto:contact@easyregister.it?subject=Request%20access%20to%20Easy%20Register">
-            <button className="border-2 border-indigo-500 rounded flex items-center p-3">
-              <ArrowRight className="mr-2" />
-              Request access
+          <a href="https://app.easyregister.it">
+            <button className="border-indigo-500 border-2 rounded w-max flex items-center py-3 px-5 text-indigo-500 font-bold">
+            Beta Login
             </button>
           </a>
         </div>
